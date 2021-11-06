@@ -89,7 +89,7 @@ Rand-Write-4K-QD32: (groupid=7, jobs=1): err= 0: pid=25: Fri Nov  5 17:15:03 202
      git clone https://github.com/ilmavridis/benchmarks-container
      cd benchmarks-container 
      ```
-  2. Set the NewArraySize variable, e.g. 200000, and replace the default value
+  2. Set the NewArraySize variable, e.g. 200000, and replace the default value.
      The default array size is 100000000
      ```bash
      NewArraySize=200000
