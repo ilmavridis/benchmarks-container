@@ -86,8 +86,8 @@ Rand-Write-4K-QD32: (groupid=7, jobs=1): err= 0: pid=25: Fri Nov  5 17:15:03 202
 - Change Stream's array size, the docker image has to be rebuilded
   1. Clone this repository
      ```bash 
-     git clone "benchmarks-container"
-     cd bench 
+     git clone https://github.com/ilmavridis/benchmarks-container
+     cd benchmarks-container 
      ```
   2. Set the NewArraySize variable, e.g. 200000, and replace the default value
      The default array size is 100000000
@@ -106,8 +106,8 @@ Rand-Write-4K-QD32: (groupid=7, jobs=1): err= 0: pid=25: Fri Nov  5 17:15:03 202
 - Change Fio's workload, the docker image has to be rebuilded
   1. Clone this repository
      ```bash 
-     git clone "benchmarks-container" 
-     cd bench 
+     git clone https://github.com/ilmavridis/benchmarks-container
+     cd benchmarks-container 
      ```
   2. Edit Fio's workload file
      ```bash
